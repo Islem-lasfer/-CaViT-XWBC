@@ -1,0 +1,7 @@
+torch>=2.1
+torchvision
+numpy
+pandas
+pillow
+scikit-learn
+tqdm
