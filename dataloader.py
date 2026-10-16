@@ -23,11 +23,6 @@ def get_transforms(img_size, train):
             transforms.RandomHorizontalFlip(p=0.5),
             transforms.RandomVerticalFlip(p=0.5),
             transforms.RandomRotation(degrees=20),
-            transforms.ColorJitter(brightness=0.2, contrast=0.2, saturation=0.1, hue=0.02),
-            transforms.RandomApply([transforms.GaussianBlur(kernel_size=3)], p=0.1),
-            transforms.ToTensor(),
-            transforms.Normalize(IMAGENET_MEAN, IMAGENET_STD),
-            transforms.RandomErasing(p=0.1, scale=(0.02, 0.08)),
         ])
     return transforms.Compose([
         transforms.Resize((img_size, img_size)),
