@@ -22,8 +22,8 @@ PyTorch implementation of **HybridNet**, a hybrid architecture for cytological c
 ## Installation
 
 ```bash
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
+git clone https://github.com/Islem-lasfer/-CaViT-XWBC.git
+cd CaViT-XWBC
 pip install -r requirements.txt
 ```
 
@@ -98,16 +98,7 @@ The checkpoint stores the label mapping and model hyperparameters, so no extra c
 
 ## Citation
 
-If you use this code, please cite our paper:
 
-```bibtex
-@article{your_key,
-  title   = {...},
-  author  = {...},
-  journal = {...},
-  year    = {...}
-}
-```
 
 ## License
 
